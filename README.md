@@ -5,8 +5,9 @@ Desafio prosposto como parte do processo seletivo para a Digital Republic.
 
 Objetivos:
 
-O Objetivo desse desafio é avaliar o conhecimento e capacidade dos candidatos às vagas de programação/desenvolvimento.
-O teste pode ser feito por qualquer nível de profissional, contudo o critério de avaliação será conforme a experiencia do candidato.
+Uma aplicação web que ajude o usuário a calcular a quantidade de tinta necessária para pintar uma sala.
+Essa aplicação deve considerar que a sala é composta de 4 paredes e deve permitir que o usuário escolha qual a medida de cada parede e quantas janelas e portas possuem cada parede.
+Com base na quantidade necessária o sistema deve apontar tamanhos de lata de tinta que o usuário deve comprar.
 
 ### Desenvolvido utilizando a(s) seguinte(s) tecnologia(s):
 

@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import WallInput from '../components/WallsInput';
 import WallsContext from '../context/WallsContext';
+import '../styles/home.css';
 
 const Home = () => {
   const [wallsAdded, setWallsAdded] = useState(false)
@@ -15,7 +16,7 @@ const Home = () => {
   }, [walls])
 
   return(
-    <div>
+    <div className='dr-paint-calculator'>
       <h1>Digital Republic Paint Calculator</h1>
       <WallInput wallNum='1' />
       <WallInput wallNum='2' />

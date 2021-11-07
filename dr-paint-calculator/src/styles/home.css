@@ -1,0 +1,12 @@
+.dr-paint-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dr-paint-calculator button {
+  color: #fff;
+  background-color: #f4901d;
+  border-radius: 0.7rem;
+  padding: 0.6rem 1.2rem;
+}

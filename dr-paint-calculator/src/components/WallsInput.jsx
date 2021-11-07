@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import WallsContext from '../context/WallsContext';
+import '../styles/wallInput.css';
 // import bricks from '../public/bricks.png';
 
 const WallInput = ({ wallNum }) => {

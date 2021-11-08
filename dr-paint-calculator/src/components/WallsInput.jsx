@@ -36,6 +36,11 @@ const WallInput = ({ wallNum }) => {
       alert('A área de portas/janelas não pode ser maior que 50% da parede!')
       return false
     }
+
+    if (width || height > 15 || width || height < 1) {
+      alert('Paredes devem ter no mínimo 1m e no máximo 15m de largura!')
+      return false;
+    }
     return true;
   }
 
@@ -46,7 +51,7 @@ const WallInput = ({ wallNum }) => {
         Largura:
         <input
           type='number'
-          id={`${wallNum}-input`}
+          id={`${wallNum}-width-input`}
           min='1.5'
           max='15'
           onChange={ (e) => setWidth(parseFloat(e.target.value))}
